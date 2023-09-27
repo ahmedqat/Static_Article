@@ -33,6 +33,10 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
+                    ArticleImage(article_title = stringResource(id = R.string.article_title), first_para = stringResource(
+                        id = R.string.first_para
+                    ) , second_para = stringResource(id = R.string.second_para))
+
                 }
             }
         }
